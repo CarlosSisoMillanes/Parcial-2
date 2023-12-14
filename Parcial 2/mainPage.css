@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #2B3260;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.logo {
+    position: relative;
+    right: auto;
+    top: auto;
+    width: 10%;
+}
+#banner {
+    margin-left: 35%;
+    height: 300px;
+    width: 500px;
+}
+nav ul {
+    background-color: #2B3260;
+    list-style-type: none;
+    font-size: 16px;
+    text-align: center;
+    padding: 3px;
+}
+
+nav li {
+    display: inline-flex;
+    margin: 1px 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    width: 160px;
+}
+
+nav li:hover {
+    background-color: black;
+}
+.Texto1 img {
+    right: 50%;
+}
+.servicios {
+    display: flex;
+    flex-direction: row;
+}
+.servicios img {
+    justify-content: space-between;
+    max-width: 100px;
+    max-height: 100px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: -40%;
+    width: 100%;
+}
